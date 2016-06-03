@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F40494D21CE61F9E00EB4253 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40494D11CE61F9E00EB4253 /* AppDelegate.swift */; };
+		F40494D41CE61F9E00EB4253 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40494D31CE61F9E00EB4253 /* ViewController.swift */; };
+		F40494D71CE61F9E00EB4253 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F40494D51CE61F9E00EB4253 /* Main.storyboard */; };
+		F40494D91CE61F9E00EB4253 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F40494D81CE61F9E00EB4253 /* Assets.xcassets */; };
+		F40494DC1CE61F9E00EB4253 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F40494DA1CE61F9E00EB4253 /* LaunchScreen.storyboard */; };
+		F40494E71CE61F9E00EB4253 /* CombustivelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40494E61CE61F9E00EB4253 /* CombustivelTests.swift */; };
+		F40494F21CE61F9E00EB4253 /* CombustivelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40494F11CE61F9E00EB4253 /* CombustivelUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F40494E31CE61F9E00EB4253 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F40494C61CE61F9D00EB4253 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F40494CD1CE61F9D00EB4253;
+			remoteInfo = Combustivel;
+		};
+		F40494EE1CE61F9E00EB4253 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F40494C61CE61F9D00EB4253 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F40494CD1CE61F9D00EB4253;
+			remoteInfo = Combustivel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F40494CE1CE61F9D00EB4253 /* Combustivel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Combustivel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F40494D11CE61F9E00EB4253 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F40494D31CE61F9E00EB4253 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F40494D61CE61F9E00EB4253 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F40494D81CE61F9E00EB4253 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F40494DB1CE61F9E00EB4253 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F40494DD1CE61F9E00EB4253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F40494E21CE61F9E00EB4253 /* CombustivelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CombustivelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F40494E61CE61F9E00EB4253 /* CombustivelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombustivelTests.swift; sourceTree = "<group>"; };
+		F40494E81CE61F9E00EB4253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F40494ED1CE61F9E00EB4253 /* CombustivelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CombustivelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F40494F11CE61F9E00EB4253 /* CombustivelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombustivelUITests.swift; sourceTree = "<group>"; };
+		F40494F31CE61F9E00EB4253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F40494CB1CE61F9D00EB4253 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40494DF1CE61F9E00EB4253 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40494EA1CE61F9E00EB4253 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F40494C51CE61F9D00EB4253 = {
+			isa = PBXGroup;
+			children = (
+				F40494D01CE61F9E00EB4253 /* Combustivel */,
+				F40494E51CE61F9E00EB4253 /* CombustivelTests */,
+				F40494F01CE61F9E00EB4253 /* CombustivelUITests */,
+				F40494CF1CE61F9D00EB4253 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F40494CF1CE61F9D00EB4253 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F40494CE1CE61F9D00EB4253 /* Combustivel.app */,
+				F40494E21CE61F9E00EB4253 /* CombustivelTests.xctest */,
+				F40494ED1CE61F9E00EB4253 /* CombustivelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F40494D01CE61F9E00EB4253 /* Combustivel */ = {
+			isa = PBXGroup;
+			children = (
+				F40494D11CE61F9E00EB4253 /* AppDelegate.swift */,
+				F40494D31CE61F9E00EB4253 /* ViewController.swift */,
+				F40494D51CE61F9E00EB4253 /* Main.storyboard */,
+				F40494D81CE61F9E00EB4253 /* Assets.xcassets */,
+				F40494DA1CE61F9E00EB4253 /* LaunchScreen.storyboard */,
+				F40494DD1CE61F9E00EB4253 /* Info.plist */,
+			);
+			path = Combustivel;
+			sourceTree = "<group>";
+		};
+		F40494E51CE61F9E00EB4253 /* CombustivelTests */ = {
+			isa = PBXGroup;
+			children = (
+				F40494E61CE61F9E00EB4253 /* CombustivelTests.swift */,
+				F40494E81CE61F9E00EB4253 /* Info.plist */,
+			);
+			path = CombustivelTests;
+			sourceTree = "<group>";
+		};
+		F40494F01CE61F9E00EB4253 /* CombustivelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F40494F11CE61F9E00EB4253 /* CombustivelUITests.swift */,
+				F40494F31CE61F9E00EB4253 /* Info.plist */,
+			);
+			path = CombustivelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F40494CD1CE61F9D00EB4253 /* Combustivel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F40494F61CE61F9E00EB4253 /* Build configuration list for PBXNativeTarget "Combustivel" */;
+			buildPhases = (
+				F40494CA1CE61F9D00EB4253 /* Sources */,
+				F40494CB1CE61F9D00EB4253 /* Frameworks */,
+				F40494CC1CE61F9D00EB4253 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Combustivel;
+			productName = Combustivel;
+			productReference = F40494CE1CE61F9D00EB4253 /* Combustivel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F40494E11CE61F9E00EB4253 /* CombustivelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F40494F91CE61F9E00EB4253 /* Build configuration list for PBXNativeTarget "CombustivelTests" */;
+			buildPhases = (
+				F40494DE1CE61F9E00EB4253 /* Sources */,
+				F40494DF1CE61F9E00EB4253 /* Frameworks */,
+				F40494E01CE61F9E00EB4253 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F40494E41CE61F9E00EB4253 /* PBXTargetDependency */,
+			);
+			name = CombustivelTests;
+			productName = CombustivelTests;
+			productReference = F40494E21CE61F9E00EB4253 /* CombustivelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F40494EC1CE61F9E00EB4253 /* CombustivelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F40494FC1CE61F9E00EB4253 /* Build configuration list for PBXNativeTarget "CombustivelUITests" */;
+			buildPhases = (
+				F40494E91CE61F9E00EB4253 /* Sources */,
+				F40494EA1CE61F9E00EB4253 /* Frameworks */,
+				F40494EB1CE61F9E00EB4253 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F40494EF1CE61F9E00EB4253 /* PBXTargetDependency */,
+			);
+			name = CombustivelUITests;
+			productName = CombustivelUITests;
+			productReference = F40494ED1CE61F9E00EB4253 /* CombustivelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F40494C61CE61F9D00EB4253 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Petrus Carvalho";
+				TargetAttributes = {
+					F40494CD1CE61F9D00EB4253 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6H2SUWN2FS;
+					};
+					F40494E11CE61F9E00EB4253 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F40494CD1CE61F9D00EB4253;
+					};
+					F40494EC1CE61F9E00EB4253 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F40494CD1CE61F9D00EB4253;
+					};
+				};
+			};
+			buildConfigurationList = F40494C91CE61F9D00EB4253 /* Build configuration list for PBXProject "Combustivel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F40494C51CE61F9D00EB4253;
+			productRefGroup = F40494CF1CE61F9D00EB4253 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F40494CD1CE61F9D00EB4253 /* Combustivel */,
+				F40494E11CE61F9E00EB4253 /* CombustivelTests */,
+				F40494EC1CE61F9E00EB4253 /* CombustivelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F40494CC1CE61F9D00EB4253 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40494DC1CE61F9E00EB4253 /* LaunchScreen.storyboard in Resources */,
+				F40494D91CE61F9E00EB4253 /* Assets.xcassets in Resources */,
+				F40494D71CE61F9E00EB4253 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40494E01CE61F9E00EB4253 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40494EB1CE61F9E00EB4253 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F40494CA1CE61F9D00EB4253 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40494D41CE61F9E00EB4253 /* ViewController.swift in Sources */,
+				F40494D21CE61F9E00EB4253 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40494DE1CE61F9E00EB4253 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40494E71CE61F9E00EB4253 /* CombustivelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40494E91CE61F9E00EB4253 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40494F21CE61F9E00EB4253 /* CombustivelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F40494E41CE61F9E00EB4253 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F40494CD1CE61F9D00EB4253 /* Combustivel */;
+			targetProxy = F40494E31CE61F9E00EB4253 /* PBXContainerItemProxy */;
+		};
+		F40494EF1CE61F9E00EB4253 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F40494CD1CE61F9D00EB4253 /* Combustivel */;
+			targetProxy = F40494EE1CE61F9E00EB4253 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F40494D51CE61F9E00EB4253 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F40494D61CE61F9E00EB4253 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F40494DA1CE61F9E00EB4253 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F40494DB1CE61F9E00EB4253 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F40494F41CE61F9E00EB4253 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F40494F51CE61F9E00EB4253 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F40494F71CE61F9E00EB4253 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Combustivel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = carvalho.Combustivel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		F40494F81CE61F9E00EB4253 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Combustivel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = carvalho.Combustivel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		F40494FA1CE61F9E00EB4253 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CombustivelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = carvalho.CombustivelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Combustivel.app/Combustivel";
+			};
+			name = Debug;
+		};
+		F40494FB1CE61F9E00EB4253 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CombustivelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = carvalho.CombustivelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Combustivel.app/Combustivel";
+			};
+			name = Release;
+		};
+		F40494FD1CE61F9E00EB4253 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CombustivelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = carvalho.CombustivelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Combustivel;
+			};
+			name = Debug;
+		};
+		F40494FE1CE61F9E00EB4253 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CombustivelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = carvalho.CombustivelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Combustivel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F40494C91CE61F9D00EB4253 /* Build configuration list for PBXProject "Combustivel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F40494F41CE61F9E00EB4253 /* Debug */,
+				F40494F51CE61F9E00EB4253 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F40494F61CE61F9E00EB4253 /* Build configuration list for PBXNativeTarget "Combustivel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F40494F71CE61F9E00EB4253 /* Debug */,
+				F40494F81CE61F9E00EB4253 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F40494F91CE61F9E00EB4253 /* Build configuration list for PBXNativeTarget "CombustivelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F40494FA1CE61F9E00EB4253 /* Debug */,
+				F40494FB1CE61F9E00EB4253 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F40494FC1CE61F9E00EB4253 /* Build configuration list for PBXNativeTarget "CombustivelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F40494FD1CE61F9E00EB4253 /* Debug */,
+				F40494FE1CE61F9E00EB4253 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F40494C61CE61F9D00EB4253 /* Project object */;
+}

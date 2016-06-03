@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Combustivel" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="Qrh-xu-OwX">
+                                <rect key="frame" x="33" y="20" width="300" height="81"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Digite os valores:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gaR-cJ-EAQ">
+                                <rect key="frame" x="33" y="165" width="131" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Álcool" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aFa-kR-pCc">
+                                <rect key="frame" x="33" y="218" width="48" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Gasolina" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kVR-lI-EyL">
+                                <rect key="frame" x="267" y="218" width="66" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8sm-84-jpb">
+                                <rect key="frame" x="33" y="247" width="48" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="48" id="ker-ge-VSK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KCU-pU-FiC">
+                                <rect key="frame" x="267" y="247" width="66" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="66" id="UDd-ju-VhN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GS9-Pe-6s2">
+                                <rect key="frame" x="33" y="324" width="300" height="30"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Qdq-eq-62v"/>
+                                </constraints>
+                                <state key="normal" title="Verificar">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="verify:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iKN-KD-j6x"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qUf-07-hqd">
+                                <rect key="frame" x="33" y="405" width="300" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="3vE-0k-gd0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.26274509800000001" green="0.49019607840000001" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="GS9-Pe-6s2" firstAttribute="leading" secondItem="qUf-07-hqd" secondAttribute="leading" id="0Dh-lf-uCT"/>
+                            <constraint firstItem="KCU-pU-FiC" firstAttribute="top" secondItem="kVR-lI-EyL" secondAttribute="bottom" constant="8" id="7Vt-Sh-QK9"/>
+                            <constraint firstItem="Qrh-xu-OwX" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="9gB-qt-PP4"/>
+                            <constraint firstItem="aFa-kR-pCc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="13" id="BXv-qx-WkB"/>
+                            <constraint firstItem="8sm-84-jpb" firstAttribute="bottom" secondItem="KCU-pU-FiC" secondAttribute="bottom" id="G07-nA-3hF"/>
+                            <constraint firstItem="Qrh-xu-OwX" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="HDy-Yz-rz3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="kVR-lI-EyL" secondAttribute="trailing" constant="22" id="MUS-jF-zjL"/>
+                            <constraint firstItem="Qrh-xu-OwX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="13" id="OPr-Ru-gLf"/>
+                            <constraint firstItem="GS9-Pe-6s2" firstAttribute="top" secondItem="8sm-84-jpb" secondAttribute="bottom" constant="47" id="Oxj-ZA-epy"/>
+                            <constraint firstItem="kVR-lI-EyL" firstAttribute="top" secondItem="Qrh-xu-OwX" secondAttribute="bottom" constant="117" id="VSs-S0-R5Y"/>
+                            <constraint firstItem="8sm-84-jpb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="13" id="XCd-vz-CvZ"/>
+                            <constraint firstItem="qUf-07-hqd" firstAttribute="top" secondItem="GS9-Pe-6s2" secondAttribute="bottom" constant="51" id="Yqv-kt-Gc9"/>
+                            <constraint firstItem="gaR-cJ-EAQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="13" id="coV-lE-LTm"/>
+                            <constraint firstItem="KCU-pU-FiC" firstAttribute="trailing" secondItem="GS9-Pe-6s2" secondAttribute="trailing" id="e1i-8n-54r"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Qrh-xu-OwX" secondAttribute="trailing" constant="22" id="eK2-Xl-qNK"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="KCU-pU-FiC" secondAttribute="trailing" constant="22" id="hTm-hR-EA3"/>
+                            <constraint firstItem="GS9-Pe-6s2" firstAttribute="trailing" secondItem="qUf-07-hqd" secondAttribute="trailing" id="nz9-xW-Sk9"/>
+                            <constraint firstItem="aFa-kR-pCc" firstAttribute="top" secondItem="gaR-cJ-EAQ" secondAttribute="bottom" constant="32" id="o9x-Uk-Amp"/>
+                            <constraint firstItem="8sm-84-jpb" firstAttribute="leading" secondItem="GS9-Pe-6s2" secondAttribute="leading" id="pMk-JI-Lpz"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="qUf-07-hqd" secondAttribute="bottom" constant="241" id="wXI-0i-XOw"/>
+                            <constraint firstItem="gaR-cJ-EAQ" firstAttribute="top" secondItem="Qrh-xu-OwX" secondAttribute="bottom" constant="64" id="woX-NF-wwI"/>
+                            <constraint firstItem="8sm-84-jpb" firstAttribute="top" secondItem="aFa-kR-pCc" secondAttribute="bottom" constant="8" id="xwG-gF-5mb"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="alcoolPrice" destination="8sm-84-jpb" id="X3L-6t-eWh"/>
+                        <outlet property="gasPrice" destination="KCU-pU-FiC" id="vou-Jo-22Q"/>
+                        <outlet property="result" destination="qUf-07-hqd" id="OCx-7a-7kH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="145.5" y="256.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo" width="407" height="106"/>
+    </resources>
+</document>
